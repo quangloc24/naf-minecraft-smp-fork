@@ -53,7 +53,7 @@ debug: false
 #  |=> Other languages: https://github.com/nickuc/OpeNLogin/blob/master/docs/lang.md
 #
 # - When changing the language, the current file can be reset.
-language-file: "messages_en.yml"
+language-file: "messages_vn.yml"
 
 #      ___      _        _
 #     /   \__ _| |_ __ _| |__   __ _ ___  ___

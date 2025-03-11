@@ -1,225 +1,225 @@
 General:
   Prefix: "&c[AdvancedBan]&8"
-  NoPerms: "&cYou don't have perms for that!"
-  LayoutNotFound: "&cThere is no layout called %NAME%"
+  NoPerms: "&cBạn không có quyền hạn để làm việc đó!"
+  LayoutNotFound: "&cKhông tìm thấy bố cục có tên %NAME%"
   # This will be the replacement for the %DURATION% variable
-  TimeLayoutD: "%D%day(s) %H%h %M%min and %S%sec"
-  TimeLayoutH: "%H%hour(s) %M%min and %S%sec"
-  TimeLayoutM: "%M%min and %S%sec"
-  TimeLayoutS: "%S% seconds"
-  FailedFetch: "&cCould not fetch the UUID of %NAME%! See console for details."
+  TimeLayoutD: "%D% ngày %H% giờ %M% phút và %S% giây"
+  TimeLayoutH: "%H% giờ %M% phút và %S% giây"
+  TimeLayoutM: "%M% phút và %S% giây"
+  TimeLayoutS: "%S% giây"
+  FailedFetch: "&cKhông thể lấy được UUID của %NAME%! Xem bảng điều khiển để biết thêm chi tiết."
 
 
 Ban:
-  Usage: "&7&o/ban (-s) [Name] [Reason/@Layout]"
-  Done: "&c&o%NAME% &7was successfully permanently banned!"
-  AlreadyDone: "&c&o%NAME% &7has already been permanently banned!"
-  Exempt: "&7You are not able to permanently ban &c&o%NAME%"
+  Usage: "&7&o/ban (-s) [Tên] [Lý do/@Bố cục]"
+  Done: "&c&o%NAME% &7đã bị cấm vĩnh viễn thành công!"
+  AlreadyDone: "&c&o%NAME% &7đã bị cấm vĩnh viễn!"
+  Exempt: "&7Bạn không thể cấm vĩnh viễn &c&o%NAME%"
   Layout:
-  - '&cYOU HAVE BEEN BANNED!'
+  - '&cBẠN ĐÃ BỊ CẤM!'
   - ''
-  - "&rBanned by&8: &7%OPERATOR%"
-  - "&rReason&8: &7%REASON%"
-  - "&rDuration&8: &7%DURATION%"
+  - "&rBị cấm bởi&8: &7%OPERATOR%"
+  - "&rLý do&8: &7%REASON%"
+  - "&rThời gian&8: &7%DURATION%"
   - ''
-  - '&rPlease join our Discord &9dsc.gg/nafd&r for more information!'
+  - '&rVui lòng tham gia Discord của chúng tôi &9dsc.gg/nafd&r để biết thêm thông tin!'
   Notification:
-  - "&c&o%NAME% &7got permanently banned by: &e&o%OPERATOR%"
-  - "&7For the reason: &o%REASON%"
-  UndoNotification: "&e&o%OPERATOR% &7unbanned &c&o%NAME%"
+  - "&c&o%NAME% &7đã bị cấm vĩnh viễn bởi: &e&o%OPERATOR%"
+  - "&7Vì lý do: &o%REASON%"
+  UndoNotification: "&e&o%OPERATOR% &7đã gỡ bỏ lệnh cấm của &c&o%NAME%"
 
 Ipban:
-  Usage: "&7&o/banip (-s) [Name/IP] [Reason/@Layout]"
+  Usage: "&7&o/banip (-s) [Tên/IP] [Lý do/@Bố cục]"
   Layout:
-  - '&cYOU HAVE BEEN IPBANNED!'
+  - '&cBẠN ĐÃ BỊ CẤM IP!'
   - ''
-  - "&rBanned by&8: &7%OPERATOR%"
-  - "&rReason&8: &7%REASON%"
-  - "&rDuration&8: &7%DURATION%"
+  - "&rBị cấm bởi&8: &7%OPERATOR%"
+  - "&rLý do&8: &7%REASON%"
+  - "&rThời gian&8: &7%DURATION%"
   - ''
-  - '&rPlease join our Discord &9dsc.gg/nafd&r for more information!'
+  - '&rVui lòng tham gia Discord của chúng tôi &9dsc.gg/nafd&r để biết thêm thông tin!'
   Notification:
-  - "&c&o%NAME% &7got permanently ipbanned by: &e&o%OPERATOR%"
-  - "&7For the reason: &o%REASON%"
-  IpNotCashed: "&cThere is no saved IP for %NAME%!"
+  - "&c&o%NAME% &7đã bị cấm IP vĩnh viễn bởi: &e&o%OPERATOR%"
+  - "&7Vì lý do: &o%REASON%"
+  IpNotCashed: "&cKhông có IP đã lưu cho %NAME%!"
 
 Tempban:
-  Usage: "&7&o/tempban (-s) [Name] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
-  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Usage: "&7&o/tempban (-s) [Tên] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Lý do/@Bố cục]"
+  MaxDuration: "&cBạn không thể cấm quá %MAX% giây"
   Layout:
-  - '&cYOU HAVE BEEN BANNED!'
+  - '&cBẠN ĐÃ BỊ CẤM!'
   - ''
-  - "&rBanned by&8: &7%OPERATOR%"
-  - "&rReason&8: &7%REASON%"
-  - "&rDuration&8: &7%DURATION%"
+  - "&rBị cấm bởi&8: &7%OPERATOR%"
+  - "&rLý do&8: &7%REASON%"
+  - "&rThời gian&8: &7%DURATION%"
   - ''
-  - '&rPlease join our Discord &9dsc.gg/nafd&r for more information!'
+  - '&rVui lòng tham gia Discord của chúng tôi &9dsc.gg/nafd&r để biết thêm thông tin!'
   Notification:
-  - "&c&o%NAME% &7got temporarily banned by: &e&o%OPERATOR%"
-  - "&7For the reason: &o%REASON%"
-  - "&7&oThis player got temporarily banned for: &e&o%DURATION%"
+  - "&c&o%NAME% &7đã bị cấm tạm thời bởi: &e&o%OPERATOR%"
+  - "&7Vì lý do: &o%REASON%"
+  - "&7&oNgười chơi này đã bị cấm tạm thời trong: &e&o%DURATION%"
 
 Tempipban:
-  Usage: "&7&o/tempipban (-s) [Name/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
-  MaxDuration: "&cYou are not able to ban more than %MAX%sec"
+  Usage: "&7&o/tempipban (-s) [Tên/IP] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Lý do/@Bố cục]"
+  MaxDuration: "&cBạn không thể cấm IP quá %MAX% giây"
   Layout:
-  - '&cYOU HAVE BEEN IPBANNED!'
+  - '&cBẠN ĐÃ BỊ CẤM IP!'
   - ''
-  - "&rBanned by&8: &7%OPERATOR%"
-  - "&rReason&8: &7%REASON%"
-  - "&rDuration&8: &7%DURATION%"
+  - "&rBị cấm bởi&8: &7%OPERATOR%"
+  - "&rLý do&8: &7%REASON%"
+  - "&rThời gian&8: &7%DURATION%"
   - ''
-  - '&rPlease join our Discord &9dsc.gg/nafd&r for more information!'
+  - '&rVui lòng tham gia Discord của chúng tôi &9dsc.gg/nafd&r để biết thêm thông tin!'
   Notification:
-  - "&c&o%NAME% &7got temporarily ipbanned by: &e&o%OPERATOR%"
-  - "&7For the reason: &o%REASON%"
-  - "&7&oThis player got temporarily ipbanned for: &e&o%DURATION%"
+  - "&c&o%NAME% &7đã bị cấm IP tạm thời bởi: &e&o%OPERATOR%"
+  - "&7Vì lý do: &o%REASON%"
+  - "&7&oNgười chơi này đã bị cấm IP tạm thời trong: &e&o%DURATION%"
 
 Mute:
-  Usage: "&7&o/mute (-s) [Name] [Reason/@Layout]"
-  Done: "&c&o%NAME% &7was successfully muted!"
-  AlreadyDone: "&c&o%NAME% &7has already been muted!"
-  Exempt: "&7You are not able to mute &c&o%NAME%"
+  Usage: "&7&o/mute (-s) [Tên] [Lý do/@Bố cục]"
+  Done: "&c&o%NAME% &7đã bị tắt tiếng thành công!"
+  AlreadyDone: "&c&o%NAME% &7đã bị tắt tiếng!"
+  Exempt: "&7Bạn không thể tắt tiếng &c&o%NAME%"
   Layout:
   - '==============================================='
   - ''
-  - '&cYOU HAVE BEEN MUTED!'
+  - '&cBẠN ĐÃ BỊ TẮT TIẾNG!'
   - ''
-  - "&rMuted by&8: &7%OPERATOR%"
-  - "&rReason&8: &7%REASON%"
-  - "&rDuration&8: &7%DURATION%"
+  - "&rBị tắt tiếng bởi&8: &7%OPERATOR%"
+  - "&rLý do&8: &7%REASON%"
+  - "&rThời gian&8: &7%DURATION%"
   - ''
   - '==============================================='
   Notification:
-  - "&c&o%NAME% &7got muted by: &e&o%OPERATOR%"
-  - "&7For the reason: &o%REASON%"
-  UndoNotification: "&e&o%OPERATOR% &7unmuted &c&o%NAME%"
+  - "&c&o%NAME% &7đã bị tắt tiếng bởi: &e&o%OPERATOR%"
+  - "&7Vì lý do: &o%REASON%"
+  UndoNotification: "&e&o%OPERATOR% &7đã mở tiếng cho &c&o%NAME%"
 
 Tempmute:
-  Usage: "&7&o/tempmute (-s) [Name] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
-  MaxDuration: "&cYou are not able to mute more than %MAX%sec"
+  Usage: "&7&o/tempmute (-s) [Tên] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Lý do/@Bố cục]"
+  MaxDuration: "&cBạn không thể tắt tiếng quá %MAX% giây"
   Layout:
   - '==============================================='
   - ''
-  - '&cYOU HAVE BEEN MUTED!'
+  - '&cBẠN ĐÃ BỊ TẮT TIẾNG!'
   - ''
-  - "&rMuted by&8: &7%OPERATOR%"
-  - "&rReason&8: &7%REASON%"
-  - "&rDuration&8: &7%DURATION%"
+  - "&rBị tắt tiếng bởi&8: &7%OPERATOR%"
+  - "&rLý do&8: &7%REASON%"
+  - "&rThời gian&8: &7%DURATION%"
   - ''
   - '==============================================='
   Notification:
-  - "&c&o%NAME% &7got temporarily muted by: &e&o%OPERATOR%"
-  - "&7For the reason: &o%REASON%"
-  - "&7&oThis player got muted for: &e&o%DURATION%"
+  - "&c&o%NAME% &7đã bị tắt tiếng tạm thời bởi: &e&o%OPERATOR%"
+  - "&7Vì lý do: &o%REASON%"
+  - "&7&oNgười chơi này đã bị tắt tiếng trong: &e&o%DURATION%"
 
 Warn:
-  Usage: "&7&o/warn (-s) [Name] [Reason/@Layout]"
-  Done: "&c&o%NAME% &7was successfully warned!"
-  Exempt: "&7You are not able to warn &c&o%NAME%"
+  Usage: "&7&o/warn (-s) [Tên] [Lý do/@Bố cục]"
+  Done: "&c&o%NAME% &7đã bị cảnh cáo thành công!"
+  Exempt: "&7Bạn không thể cảnh cáo &c&o%NAME%"
   Layout:
   - '==============================================='
   - ''
-  - '&cYOU HAVE BEEN WARNED!'
+  - '&cBẠN ĐÃ BỊ CẢNH CÁO!'
   - ''
-  - "&rWarned by&8: &7%OPERATOR%"
-  - "&rReason&8: &7%REASON%"
-  - "&rDuration&8: &7%DURATION%"
-  - '&rYou have now &c&o%COUNT% &rwarning(s) in total!'
+  - "&rBị cảnh cáo bởi&8: &7%OPERATOR%"
+  - "&rLý do&8: &7%REASON%"
+  - "&rThời gian&8: &7%DURATION%"
+  - '&rBạn hiện có &c&o%COUNT% &rcảnh cáo!'
   - ''
   - '==============================================='
   Notification:
-  - "&c&o%NAME% &7got warned by: &e&o%OPERATOR%"
-  - "&7For the reason: &o%REASON%"
+  - "&c&o%NAME% &7đã bị cảnh cáo bởi: &e&o%OPERATOR%"
+  - "&7Vì lý do: &o%REASON%"
 
 Note:
-  Usage: "&7&o/note (-s) [Name] [Reason]"
-  Done: "&c&o%NAME% &7was successfully noted!"
-  Exempt: "&7You are not able to note &c&o%NAME%"
+  Usage: "&7&o/note (-s) [Tên] [Lý do]"
+  Done: "&c&o%NAME% &7đã được ghi chú thành công!"
+  Exempt: "&7Bạn không thể ghi chú &c&o%NAME%"
   Notification:
-  - "&c&o%NAME% &7got noted by: &e&o%OPERATOR%"
-  - "&7For the reason: &o%REASON%"
+  - "&c&o%NAME% &7đã được ghi chú bởi: &e&o%OPERATOR%"
+  - "&7Vì lý do: &o%REASON%"
 
 Tempwarn:
-  Usage: "&7&o/tempwarn (-s) [Name] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Reason/@Layout]"
-  MaxDuration: "&cYou are not able to warn more than %MAX%sec"
+  Usage: "&7&o/tempwarn (-s) [Tên] [Xmo/Xd/Xh/Xm/Xs/#TimeLayout] [Lý do/@Bố cục]"
+  MaxDuration: "&cBạn không thể cảnh cáo quá %MAX% giây"
   Layout:
   - '==============================================='
   - ''
-  - '&cYOU HAVE BEEN WARNED!'
+  - '&cBẠN ĐÃ BỊ CẢNH CÁO!'
   - ''
-  - "&rWarned by&8: &7%OPERATOR%"
-  - "&rReason&8: &7%REASON%"
-  - "&rDuration&8: &7%DURATION%"
-  - '&rYou have now &c&o%COUNT% &rwarning(s) in total!'
+  - "&rBị cảnh cáo bởi&8: &7%OPERATOR%"
+  - "&rLý do&8: &7%REASON%"
+  - "&rThời gian&8: &7%DURATION%"
+  - '&rBạn hiện có &c&o%COUNT% &rcảnh cáo!'
   - ''
   - '==============================================='
   Notification:
-  - "&c&o%NAME% &7got temporarily warned by &e&o%OPERATOR%"
-  - "&7For the reason &o%REASON%"
-  - "&7This warning will pass in &o%DURATION%"
+  - "&c&o%NAME% &7đã bị cảnh cáo tạm thời bởi &e&o%OPERATOR%"
+  - "&7Vì lý do &o%REASON%"
+  - "&7Cảnh cáo này sẽ hết hiệu lực trong &o%DURATION%"
 
 Kick:
-  Usage: "&7&o/kick (-s) [Name] [Reason/@Layout]"
-  Done: "&c&o%NAME% &7was successfully kicked!"
-  NotOnline: "&c&o%NAME% &7is not online!"
-  Exempt: "&7You are not able to kick &c&o%NAME%"
+  Usage: "&7&o/kick (-s) [Tên] [Lý do/@Bố cục]"
+  Done: "&c&o%NAME% &7đã bị đá thành công!"
+  NotOnline: "&c&o%NAME% &7không online!"
+  Exempt: "&7Bạn không thể đá &c&o%NAME%"
   Layout:
-  - '&cYOU HAVE BEEN KICKED!'
+  - '&cBẠN ĐÃ BỊ đá!'
   - ''
-  - "&rKicked by&8: &7%OPERATOR%"
-  - "&rReason&8: &7%REASON%"
+  - "&rBị đá bởi&8: &7%OPERATOR%"
+  - "&rLý do&8: &7%REASON%"
   - ''
-  - '&rPlease join our Discord &9dsc.gg/nafd&r for more information!'
+  - '&rVui lòng tham gia Discord của chúng tôi &9dsc.gg/nafd&r để biết thêm thông tin!'
   Notification:
-  - "&c&o%NAME% &7got kicked by: &e&o%OPERATOR%"
-  - "&7For the reason: &o%REASON%"
+  - "&c&o%NAME% &7đã bị đá bởi: &e&o%OPERATOR%"
+  - "&7Vì lý do: &o%REASON%"
 
 
 UnBan:
-  Usage: "&7&o/unban [Name/IP]"
-  NotPunished: "&c&o%NAME% is not banned!"
-  Done: "&a&o%NAME% &7was successfully unbanned!"
-  Notification: "&e&o%OPERATOR% &7unbanned &c&o%NAME%"
+  Usage: "&7&o/unban [Tên/IP]"
+  NotPunished: "&c&o%NAME% &7không bị cấm!"
+  Done: "&a&o%NAME% &7đã được gỡ bỏ lệnh cấm thành công!"
+  Notification: "&e&o%OPERATOR% &7đã gỡ bỏ lệnh cấm của &c&o%NAME%"
 
 UnMute:
-  Usage: "&7&o/unmute [Name]"
-  NotPunished: "&c&o%NAME% is not muted!"
-  Done: "&a&o%NAME% &7was successfully unmuted!"
-  Notification: "&e&o%OPERATOR% &7unmuted &c&o%NAME%"
+  Usage: "&7&o/unmute [Tên]"
+  NotPunished: "&c&o%NAME% &7không bị tắt tiếng!"
+  Done: "&a&o%NAME% &7đã được mở tiếng thành công!"
+  Notification: "&e&o%OPERATOR% &7đã mở tiếng cho &c&o%NAME%"
 
 UnWarn:
-  Usage: "&7&o/unwarn [ID] or /unwarn clear [Name]"
-  NotFound: "&cCould not find warning #%ID%"
-  Done: "&7Warn &a&o#%ID% &7was successfully deleted!"
-  Notification: "&e&o%OPERATOR% &7unwarned &c&o%NAME%"
+  Usage: "&7&o/unwarn [ID] hoặc /unwarn clear [Tên]"
+  NotFound: "&cKhông tìm thấy cảnh cáo #%ID%"
+  Done: "&7Cảnh cáo &a&o#%ID% &7đã được xóa thành công!"
+  Notification: "&e&o%OPERATOR% &7đã xóa cảnh cáo của &c&o%NAME%"
   Clear:
-    Empty: "&c&o%NAME% &7has no warnings!"
-    Done: "&7Cleared &a&o%COUNT% &7warnings"
+    Empty: "&c&o%NAME% &7không có cảnh cáo nào!"
+    Done: "&7Đã xóa &a&o%COUNT% &7cảnh cáo"
 
 UnNote:
-  Usage: "&7&o/unnote [ID] or /unnote clear [Name]"
-  NotFound: "&cCould not find note #%ID%"
-  Done: "&7Note &a&o#%ID% &7was successfully deleted!"
-  Notification: "&e&o%OPERATOR% &7unnoted &c&o%NAME%"
+  Usage: "&7&o/unnote [ID] hoặc /unnote clear [Tên]"
+  NotFound: "&cKhông tìm thấy ghi chú #%ID%"
+  Done: "&7Ghi chú &a&o#%ID% &7đã được xóa thành công!"
+  Notification: "&e&o%OPERATOR% &7đã xóa ghi chú của &c&o%NAME%"
   Clear:
-    Empty: "&c&o%NAME% &7has no notes!"
-    Done: "&7Cleared &a&o%COUNT% &7notes"
+    Empty: "&c&o%NAME% &7không có ghi chú nào!"
+    Done: "&7Đã xóa &a&o%COUNT% &7ghi chú"
 
 UnPunish:
   Usage: "&7&o/unpunish [ID]"
-  NotFound: "&cCould not find punishment #%ID%"
-  Done: "&7Punishment &a&o#%ID% &7was successfully deleted!"
+  NotFound: "&cKhông tìm thấy hình phạt #%ID%"
+  Done: "&7Hình phạt &a&o#%ID% &7đã được xóa thành công!"
 
 
 Banlist:
-  Usage: "&7&o/banlist <Page>"
-  OutOfIndex: "&cThere is no page %PAGE%!"
-  NoEntries: "&c&oThere are no entries"
+  Usage: "&7&o/banlist <Trang>"
+  OutOfIndex: "&cKhông có trang %PAGE%!"
+  NoEntries: "&c&oKhông có mục nào"
   Header:
-  - "&c&l[AdvancedBan]&8&l &7BANLIST:"
-  - "&c&oPlayer/IP &8| &e&oDuration &8| &7&oBanned by"
-  - "&c&oType &8| &7&oReason"
+  - "&c&l[AdvancedBan]&8&l &7DANH SÁCH CẤM:"
+  - "&c&oNgười chơi/IP &8| &e&oThời gian &8| &7&oBị cấm bởi"
+  - "&c&oLoại &8| &7&oLý do"
   - ""
   Entry:
   - "&8[&e%DATE%&8]"
@@ -227,19 +227,19 @@ Banlist:
   - "&c%TYPE% &8| &7&o%REASON%"
   Footer: 
   - ""
-  - "&7Page &e&o%CURRENT_PAGE% &7of &e&o%TOTAL_PAGES% &8| &7Listed bans: &e&o%COUNT%"
+  - "&7Trang &e&o%CURRENT_PAGE% &7của &e&o%TOTAL_PAGES% &8| &7Số lệnh cấm: &e&o%COUNT%"
   PageFooter: 
   - ""
-  - "&7Use &e&o/banlist %NEXT_PAGE% &7to see the next page"
+  - "&7Sử dụng &e&o/banlist %NEXT_PAGE% &7để xem trang tiếp theo"
 
 History:
-  Usage: "&7&o/history [Name/IP] <Page>"
-  OutOfIndex: "&cThere is no page %PAGE%!"
-  NoEntries: "&c&oCould not find the history of %NAME% :("
+  Usage: "&7&o/history [Tên/IP] <Trang>"
+  OutOfIndex: "&cKhông có trang %PAGE%!"
+  NoEntries: "&c&oKhông tìm thấy lịch sử của %NAME% :("
   Header:
-  - "&c&l[AdvancedBan]&8&l &7History for: %NAME%:"
-  - "&c&oName &8| &e&oDuration &8| &7&oOperator"
-  - "&c&oType &8| &7&oReason"
+  - "&c&l[AdvancedBan]&8&l &7Lịch sử của: %NAME%:"
+  - "&c&oTên &8| &e&oThời gian &8| &7&oNgười thực hiện"
+  - "&c&oLoại &8| &7&oLý do"
   - ""
   Entry:
   - "&8[&e%DATE%&8]"
@@ -247,19 +247,19 @@ History:
   - "&c%TYPE% &8| &7&o%REASON%"
   Footer: 
   - ""
-  - "&7Page &e&o%CURRENT_PAGE% &7of &e&o%TOTAL_PAGES% &8| &7Total entries: &e&o%COUNT%"
+  - "&7Trang &e&o%CURRENT_PAGE% &7của &e&o%TOTAL_PAGES% &8| &7Tổng số mục: &e&o%COUNT%"
   PageFooter: 
   - ""
-  - "&7Use &e&o/history %NAME% %NEXT_PAGE% &7to see the next page"
+  - "&7Sử dụng &e&o/history %NAME% %NEXT_PAGE% &7để xem trang tiếp theo"
 
 Warns:
-  Usage: "&7&o/warns [Name] <Page> &cor &7&o/warns <Page>"
-  OutOfIndex: "&cThere is no page %PAGE%!"
-  NoEntries: "&c&o%NAME% has no warnings yet"
+  Usage: "&7&o/warns [Tên] <Trang> &hoặc &7&o/warns <Trang>"
+  OutOfIndex: "&cKhông có trang %PAGE%!"
+  NoEntries: "&c&o%NAME% chưa có cảnh cáo nào"
   Header:
-  - "&c&l[AdvancedBan]&8&l &7Warnings for: %NAME%:"
-  - "&c&oName &8| &e&oDuration &8| &7&oWarned by"
-  - "&c&o#ID &8| &7&oReason"
+  - "&c&l[AdvancedBan]&8&l &7Cảnh cáo của: %NAME%:"
+  - "&c&oTên &8| &e&oThời gian &8| &7&oBị cảnh cáo bởi"
+  - "&c&o#ID &8| &7&oLý do"
   - ""
   Entry:
   - "&8[&e%DATE%&8]"
@@ -267,18 +267,18 @@ Warns:
   - "&c&l#%ID% &8| &7&o%REASON%"
   Footer: 
   - ""
-  - "&7Page &e&o%CURRENT_PAGE% &7of &e&o%TOTAL_PAGES% &8| &7Active warnings: &e&o%COUNT%"
+  - "&7Trang &e&o%CURRENT_PAGE% &7của &e&o%TOTAL_PAGES% &8| &7Cảnh cáo hiện tại: &e&o%COUNT%"
   PageFooter: 
   - ""
-  - "&7Use &e&o/warns %NAME% %NEXT_PAGE% &7to see the next page"
+  - "&7Sử dụng &e&o/warns %NAME% %NEXT_PAGE% &7để xem trang tiếp theo"
 
 WarnsOwn:
-  OutOfIndex: "&cThere is no page %PAGE%!"
-  NoEntries: "&c&oYou have no warnings yet"
+  OutOfIndex: "&cKhông có trang %PAGE%!"
+  NoEntries: "&c&oBạn chưa có cảnh cáo nào"
   Header:
-    - "&c&l[AdvancedBan]&8&l &7Your warnings:"
-    - "&e&oDuration &8| &7&oWarned by"
-    - "&c&o#ID &8| &7&oReason"
+    - "&c&l[AdvancedBan]&8&l &7Cảnh cáo của bạn:"
+    - "&e&oThời gian &8| &7&oBị cảnh cáo bởi"
+    - "&c&o#ID &8| &7&oLý do"
     - ""
   Entry:
     - "&8[&e%DATE%&8]"
@@ -286,61 +286,61 @@ WarnsOwn:
     - "&c&l#%ID% &8| &7&o%REASON%"
   Footer: 
   - ""
-  - "&7Page &e&o%CURRENT_PAGE% &7of &e&o%TOTAL_PAGES% &8| &7Active warnings: &e&o%COUNT%"
+  - "&7Trang &e&o%CURRENT_PAGE% &7của &e&o%TOTAL_PAGES% &8| &7Cảnh cáo hiện tại: &e&o%COUNT%"
   PageFooter: 
   - ""
-  - "&7Use &e&o/warns %NEXT_PAGE% &7to see the next page"
+  - "&7Sử dụng &e&o/warns %NEXT_PAGE% &7để xem trang tiếp theo"
   
 Notes:
-  Usage: "&7&o/notes [Name] <Page> &cor &7&o/notes <Page>"
-  OutOfIndex: "&cThere is no page %PAGE%!"
-  NoEntries: "&c&o%NAME% has no notes yet"
+  Usage: "&7&o/notes [Tên] <Trang> &hoặc &7&o/notes <Trang>"
+  OutOfIndex: "&cKhông có trang %PAGE%!"
+  NoEntries: "&c&o%NAME% chưa có ghi chú nào"
   Header:
-    - "&c&l[AdvancedBan]&8&l &7Notes for %NAME%:"
+    - "&c&l[AdvancedBan]&8&l &7Ghi chú của %NAME%:"
     - ""
   Entry:
-    - "&7%DATE% &8| &7By &o%OPERATOR% &7(&c#%ID%&7)"
+    - "&7%DATE% &8| &7Bởi &o%OPERATOR% &7(&c#%ID%&7)"
     - "&8| &e%REASON%"
   Footer: 
   - ""
-  - "&7Page &e&o%CURRENT_PAGE% &7of &e&o%TOTAL_PAGES% &8| &7Notes: &e&o%COUNT%"
+  - "&7Trang &e&o%CURRENT_PAGE% &7của &e&o%TOTAL_PAGES% &8| &7Ghi chú: &e&o%COUNT%"
   PageFooter: 
   - ""
-  - "&7Use &e&o/notes %NAME% %NEXT_PAGE% &7to see the next page"
+  - "&7Sử dụng &e&o/notes %NAME% %NEXT_PAGE% &7để xem trang tiếp theo"
 
 NotesOwn:
-  OutOfIndex: "&cThere is no page %PAGE%!"
-  NoEntries: "&c&oYou have no notes yet"
+  OutOfIndex: "&cKhông có trang %PAGE%!"
+  NoEntries: "&c&oBạn chưa có ghi chú nào"
   Header:
-    - "&c&l[AdvancedBan]&8&l &7Your notes:"
+    - "&c&l[AdvancedBan]&8&l &7Ghi chú của bạn:"
     - ""
   Entry:
-    - "&7%DATE% &8| &7By &o%OPERATOR% &7(&c#%ID%&7)"
+    - "&7%DATE% &8| &7Bởi &o%OPERATOR% &7(&c#%ID%&7)"
     - "&8| &e%REASON%"
   Footer: 
   - ""
-  - "&7Page &e&o%CURRENT_PAGE% &7of &e&o%TOTAL_PAGES% &8| &7Notes: &e&o%COUNT%"
+  - "&7Trang &e&o%CURRENT_PAGE% &7của &e&o%TOTAL_PAGES% &8| &7Ghi chú: &e&o%COUNT%"
   PageFooter: 
   - ""
-  - "&7Use &e&o/notes %NEXT_PAGE% &7to see the next page"
+  - "&7Sử dụng &e&o/notes %NEXT_PAGE% &7để xem trang tiếp theo"
 
 ChangeReason:
-  Usage: "&7&o/change-reason [ID or ban/mute USER] [New reason]"
-  Done: "&7Punishment &a&o#%ID% &7has successfully been updated!"
-  NotFound: "&cSorry we have not been able to find this punishment"
+  Usage: "&7&o/change-reason [ID hoặc lệnh cấm/tắt tiếng NGƯỜI DÙNG] [Lý do mới]"
+  Done: "&7Hình phạt &a&o#%ID% &7đã được cập nhật thành công!"
+  NotFound: "&cXin lỗi, chúng tôi không tìm thấy hình phạt này"
 
 Check:
-  Usage: "&7&o/check [Name]"
-  Header: "&7Checking &e&o%NAME% &8(%CACHED%&8)"
+  Usage: "&7&o/check [Tên]"
+  Header: "&7Đang kiểm tra &e&o%NAME% &8(%CACHED%&8)"
   UUID: "&cUUID&8: &7%UUID% &8(%CACHED%&8)"
   IP: "&cIP&8: &7%IP% &8(%CACHED%&8)"
-  Geo: "&cCountry&8: &7%LOCATION%"
-  Mute: "&cMuted&8: &7%DURATION%"
-  MuteReason: "  &cReason&8: &7%REASON%"
-  Ban: "&cBanned&8: &7%DURATION%"
-  BanReason: "  &cReason&8: &7%REASON%"
-  Warn: "&cWarns&8: &7%COUNT%"
-  Note: "&cNotes&8: &7%COUNT%"
-  NotFound: "&cSorry we have not been able to find %NAME%"
-  Cached: "&a&ocached"
-  NotCached: "&c&onot cached"
+  Geo: "&cQuốc gia&8: &7%LOCATION%"
+  Mute: "&cTắt tiếng&8: &7%DURATION%"
+  MuteReason: "  &cLý do&8: &7%REASON%"
+  Ban: "&cCấm&8: &7%DURATION%"
+  BanReason: "  &cLý do&8: &7%REASON%"
+  Warn: "&cCảnh cáo&8: &7%COUNT%"
+  Note: "&cGhi chú&8: &7%COUNT%"
+  NotFound: "&cXin lỗi, chúng tôi không tìm thấy %NAME%"
+  Cached: "&a&odữ liệu đã lưu trong bộ nhớ cache"
+  NotCached: "&c&odữ liệu chưa được lưu trong bộ nhớ cache"

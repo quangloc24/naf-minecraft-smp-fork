@@ -1,12 +1,12 @@
 reload-message: "&a[BanWebhook] Reloaded Configuration!"
-permanent-duration-translation: "permanent"
+permanent-duration-translation: "Vĩnh viễn"
 litebans-do-not-send-silent-punishments: true
 inline-webhooks: true
 
 ban:
   enabled: true
   webhook-url: "webhook"
-  webhook-title: "{player} has been banned!"
+  webhook-title: "{player} đã bị ban!"
   webhook-thumbnail: ""
   webhook-color: "ff0000"
   fields:
@@ -18,7 +18,7 @@ ban:
 mute:
   enabled: false
   webhook-url: "webhook"
-  webhook-title: "{player} has been muted!"
+  webhook-title: "{player} đã bị tắt tiếng!"
   webhook-thumbnail: ""
   webhook-color: "ffff00"
   fields:
@@ -30,7 +30,7 @@ mute:
 warn:
   enabled: false
   webhook-url: "webhook"
-  webhook-title: "{player} has been warned!"
+  webhook-title: "{player} đã bị cảnh cáo!"
   webhook-thumbnail: ""
   webhook-color: "ffff00"
   fields:
@@ -42,7 +42,7 @@ warn:
 kick:
   enabled: true
   webhook-url: "webhook"
-  webhook-title: "{player} has been kicked!"
+  webhook-title: "{player} đã bị đá khỏi server!"
   webhook-thumbnail: ""
   webhook-color: "ff0000"
   fields:
@@ -54,7 +54,7 @@ kick:
 unban:
   enabled: true
   webhook-url: "webhook"
-  webhook-title: "{player} has been unbaned!"
+  webhook-title: "{player} đã được unban!"
   webhook-thumbnail: ""
   webhook-color: "00ff00"
   fields:
@@ -65,7 +65,7 @@ unban:
 unmute:
   enabled: false
   webhook-url: "webhook"
-  webhook-title: "{player} has been unmuted!"
+  webhook-title: "{player} đã được bật tiếng!"
   webhook-thumbnail: ""
   webhook-color: "00ff00"
   fields:
@@ -76,7 +76,7 @@ unmute:
 unwarn:
   enabled: false
   webhook-url: "webhook"
-  webhook-title: "{player} has been unwarned!"
+  webhook-title: "{player} đã được xóa cảnh cáo!"
   webhook-thumbnail: ""
   webhook-color: "00ff00"
   fields:

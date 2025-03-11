@@ -14,17 +14,17 @@ PrettyTimeLocale: "en"
 
 #These are sent to all players when AFK starts and stops
 Broadcast:
-  Start: "{PREFIX} &s{PLAYER}&p is now AFK"
+  Start: "{PREFIX} &s{PLAYER}&p hiện đang AFK"
   #You may also add a {TIME} variable that will be replaced by how long the player was AFK
-  Stop: "{PREFIX} &s{PLAYER}&p is no longer AFK"
+  Stop: "{PREFIX} &s{PLAYER}&p không còn AFK nữa"
 
 #These messages are sent to the individual who's AFK status is changing
 Self:
-  Start: "{PREFIX} &sYou&p are now AFK"
+  Start: "{PREFIX} &sBạn&p hiện đang AFK"
   #You may also add a {TIME} variable that will be replaced by how long the player was AFK
-  Stop: "{PREFIX} &sYou&p are no longer AFK"
+  Stop: "{PREFIX} &sBạn&p không còn AFK nữa"
   #The message sent to players when they join and are immediately set as AFK
-  Resume: "{PREFIX} &pYour AFK State has been resumed!"
+  Resume: "{PREFIX} &pTrạng thái AFK của bạn đã được khôi phục!"
 
 Updater:
   NoUpdate: "&pThere is no update available"
@@ -35,18 +35,18 @@ Reload: "&pConfig files have been reloaded, any errors will be printed to the co
 
 #These strings are used in the "/afkplus player name" commands
 Player:
-  AFK: "&s{PLAYER}&p has been AFK since &s{TIME}"
-  NotAFK: "&s{PLAYER}&p is not AFK"
-  NotOnline: "&s{PLAYER}&p is not currently online"
-  Stats: "&pThey have spent &s{TIME}&p AFK in total"
+  AFK: "&s{PLAYER}&p đã AFK kể từ &s{TIME}"
+  NotAFK: "&s{PLAYER}&p hiện không AFK"
+  NotOnline: "&s{PLAYER}&p hiện không online"
+  Stats: "&pHọ đã dành &s{TIME}&p AFK trong tổng cộng"
   #The current permission assigned to this player will be appended to this string
   Permission: "&pPlayers permission: &s"
   #These two strings will only be shown if AggressiveAFKDetection is enabled
-  Active: "&pThis player is not exhibiting suspicious behaviour according to aggressive AFK detection"
-  Inactive: "&sThis player has been behaving in a way that MIGHT mean they are trying to avoid AFK detection, they have been marked as inactive"
+  Active: "&pNgười chơi này không biểu hiện hành vi đáng ngờ theo phát hiện AFK hung hăng"
+  Inactive: "&sNgười chơi này đã hành động theo cách CÓ THỂ có nghĩa là họ đang cố gắng tránh bị phát hiện AFK, họ đã bị đánh dấu là không hoạt động"
 
 #Sent when the player is AFK long enough for a warning to be sent
-Warning: "{PREFIX}&p You will be kicked for AFK soon!"
+Warning: "{PREFIX}&p Bạn sẽ bị đá vì afk quá lâu!"
 
 Help:
   Help: "The following is a list of commands and their uses:\n"
@@ -63,6 +63,6 @@ Help:
   With a name it will attempt to toggle that players AFK status"
 
 Error:
-  MustBePlayer: "&sYou must be player to do this!"
-  PlayerNotFound: "&sPlayer not found"
-  NotPermitted: "&sYou aren't permitted to do this"
+  MustBePlayer: "&sBạn phải là một người chơi mới có thể thực hiện!"
+  PlayerNotFound: "&sNgười chơi không tìm thấy"
+  NotPermitted: "&sBạn không được phép làm điều này"

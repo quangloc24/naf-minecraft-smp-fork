@@ -46,7 +46,7 @@ debug: false
 #  |=> Vietnamese: messages_vn.yml
 #
 # - When changing the language, the current file can be reset.
-language-file: 'messages_en.yml'
+language-file: 'messages_vn.yml'
 
 #     ___ _                 _
 #    / __\ | ___  _   _  __| |

@@ -1,5 +1,5 @@
 # The default layouts are in the Message.yml file!
-
+Message:
 # Message-Layouts can not only be used for bans but also for mutes and warns
 # Currently available variables:
 #   %OPERATOR% - The user who dealt the punishment.
@@ -12,28 +12,39 @@
 # For warns you have also the variable %COUNT% which will be
 # replaced with the current amount of warns the player already received
 # Example usage: /ban Leoko @ExampleLayout
-Message:
-  hackclient:
-  - '&cYOU HAVE BEEN BANNED!'
+  banhackclient:
+  - '&cBẠN ĐÃ BỊ CẤM!'
   - ''
-  - "&rIt seems like you are using a"
-  - "&rhacked client please disable it!"
+  - "&rCó vẻ như bạn đang sử dụng"
+  - "&rhack client, vui lòng tắt nó đi!"
   - ''
-  - "&rBanned by&8: &7%OPERATOR%"
-  - "&rReason&8: &7%REASON%"
-  - "&rDuration&8: &7%DURATION%"
+  - "&rNgười cấm&8: &7%OPERATOR%"
+  - "&rLý do&8: &7%REASON%"
+  - "&rThời gian&8: &7%DURATION%"
   - ''
+  - '&rHãy tham gia Discord của chúng tôi &9dsc.gg/nafd&r để biết thêm thông tin!'
+  
+  kickhackclient:
+  - '&cBẠN ĐÃ BỊ KICK!'
+  - ''
+  - "&rCó vẻ như bạn đang sử dụng"
+  - "&rhack client, vui lòng tắt nó đi!"
+  - ''
+  - "&rNgười kick&8: &7%OPERATOR%"
+  - "&rLý do&8: &7%REASON%"
+  - "&rThời gian&8: &7%DURATION%"
+  - ''
+  - '&rHãy tham gia Discord của chúng tôi &9dsc.gg/nafd&r để biết thêm thông tin!'
   - '&rPlease join our Discord &9dsc.gg/nafd&r for more information!'
   # ExampleLayout2:
   #   - '%PREFIX% &7Banned for offensive language'
   #   - '&7'
   #   - "&cWe don't tolerate swearing on our server!"
   #   - "&cYou got banned for the word '%REASON%'" # You can even use reasons in message layouts
-
+Time:
 # You would use this time-layout for example like this: "/tempban Leoko #ExampleLayout Hacking in FFA"
 # Or with "/tempwarn Leoko #ExampleLayout Advertising" or even "/tempwarn Leoko #ExampleLayout No capslock please"
 # You can also combine this with MessageLayouts like "/tempban Leoko #ExampleLayout @Hacking"
-Time:
   ExampleLayout:
   - '1m'
   - '2m'
@@ -51,4 +62,5 @@ Time:
   - '5d'
   - '1w'
   - '1mo'
+  - 'perma'
   - 'perma'

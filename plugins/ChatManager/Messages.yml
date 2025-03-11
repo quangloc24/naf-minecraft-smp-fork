@@ -16,204 +16,204 @@
 #    - To view a list of FORMAT CODES you can do /Formats in-game.
 #
 #=================================================================================================#
-
 Message:
   Prefix: "&6[ChatManager] &r"
-  No_Permission: "{prefix}&cYou don't have the permissions to do this."
-  Player_Not_Found: "{prefix}&7The player &c{target} &7cannot be found."
+  No_Permission: "{prefix}&cBạn không có quyền để làm điều này."
+  Player_Not_Found: "{prefix}&7Người chơi &c{target} &7không được tìm thấy."
+  Reload: "{prefix}&aCấu hình đã được tải lại."
   Reload: "{prefix}&aConfig has been reloaded."
-
+Anti_Advertising:
 #=================================================================================================#
 # Anti-Advertising Messages
 #=================================================================================================#
-Anti_Advertising:
   Chat:
-    Message: "{prefix}&cAdvertising is not allowed in chat. Staff has been notified."
+    Message: "{prefix}&cQuảng cáo không được phép trong chat. Nhân viên đã được thông báo."
     Notify_Staff_Format: "&7[Anti-Advertise Chat] &f{player}: &7{message}"
   Commands:
-    Message: "{prefix}&cAdvertising is not allowed in commands. Staff has been notified."
+    Message: "{prefix}&cQuảng cáo không được phép trong lệnh. Nhân viên đã được thông báo."
     Notify_Staff_Format: "&7[Anti-Advertise Commands] &f{player}: &7{message}"
   Signs:
-    Message: "{prefix}&cAdvertising is not allowed on signs. Staff has been notified."
+    Message: "{prefix}&cQuảng cáo không được phép trên biển hiệu. Nhân viên đã được thông báo."
     Notify_Staff_Format: "&7[Anti-Advertise Signs] &f{player}: &7{message}"
   
+Anti_Bot:
 #=================================================================================================#
 # Anti-Bot Messages
 #=================================================================================================#
-Anti_Bot:
-  Deny_Chat_Message: "{prefix}&cYou must move one block before talking in chat."
-  Deny_Command_Message: "{prefix}&cYou must move one block before executing commands."
+  Deny_Chat_Message: "{prefix}&cBạn phải di chuyển một khối trước khi nói chuyện trong chat."
+  Deny_Command_Message: "{prefix}&cBạn phải di chuyển một khối trước khi thực thi lệnh."
   
+Anti_Caps:
 #=================================================================================================#
 # Anti-Caps Message
 #=================================================================================================#
-Anti_Caps:
-  Message_Chat: "{prefix}&cPlease do not use caps in chat."
-  Message_Commands: "{prefix}&cPlease do not use caps in commands."
+  Message_Chat: "{prefix}&cVui lòng không sử dụng chữ in hoa trong chat."
+  Message_Commands: "{prefix}&cVui lòng không sử dụng chữ in hoa trong lệnh."
   
+Anti_Spam:
 #=================================================================================================#
 # Anti-Spam Messages
 #=================================================================================================#
-Anti_Spam:
   Chat:
-    Repetitive_Message: "{prefix}&cPlease do not repeat the same message."
-    Delay_Message: "{prefix}&7Please wait &c{Time} seconds &7before sending another message."
+    Repetitive_Message: "{prefix}&cVui lòng không lặp lại cùng một tin nhắn."
+    Delay_Message: "{prefix}&7Vui lòng chờ &c{Time} giây &7trước khi gửi tin nhắn khác."
   Command:
-    Repetitive_Message: "{prefix}&cPlease do not repeat the same command."
+    Repetitive_Message: "{prefix}&cVui lòng không lặp lại cùng một lệnh."
+    Delay_Message: "{prefix}&7Vui lòng chờ &c{Time} giây &7trước khi gửi lệnh khác."
     Delay_Message: "{prefix}&7Please wait &c{Time} seconds &7before sending another command."
-
+Anti_Swear:
 #=================================================================================================#
 # Anti-Swear Messages
 #=================================================================================================#
-Anti_Swear:
   Chat:
-    Message: "{prefix}&cPlease do not curse in chat."
+    Message: "{prefix}&cVui lòng không chửi thề trong chat."
     Notify_Staff_Format: "&7[Anti-Swear Chat] &f{player}: &7{message}"
   Commands:
-    Message: "{prefix}&cPlease do not curse in commands."
+    Message: "{prefix}&cVui lòng không chửi thề trong lệnh."
     Notify_Staff_Format: "&7[Anti-Swear Commands] &f{player}: &7{message}"
   Signs:
-    Message: "{prefix}&cPlease do not curse on signs."
+    Message: "{prefix}&cVui lòng không chửi thề trên biển hiệu."
     Notify_Staff_Format: "&7[Anti-Swear Signs] &f{player}: &7{message}"
   Blacklisted_Word:
-    Added: "{prefix}&7You added the word &c{word} &7to the anti swears blacklist."
-    Exists: "{prefix}&7The word &c{word} &7is already added to the anti swears blacklist."
-    Removed: "{prefix}&7You removed the word &c{word} &7from the anti swears blacklist."
-    Not_Found: "{prefix}&7The word &c{word} &7is not in the anti swears blacklist."
+    Added: "{prefix}&7Bạn đã thêm từ &c{word} &7vào danh sách đen từ cấm."
+    Exists: "{prefix}&7Từ &c{word} &7đã được thêm vào danh sách đen từ cấm."
+    Removed: "{prefix}&7Bạn đã xóa từ &c{word} &7khỏi danh sách đen từ cấm."
+    Not_Found: "{prefix}&7Từ &c{word} &7không có trong danh sách đen từ cấm."
   Whitelisted_Word:
-    Added: "{prefix}&7You added the word &c{word} &7to the anti swears whitelist."
-    Exists: "{prefix}&7The word &c{word} &7is already added to the anti swears whitelist."
-    Removed: "{prefix}&7You removed the word &c{word} &7from the anti swears whitelist."
-    Not_Found: "{prefix}&7The word &c{word} &7is not in the anti swears whitelist."
+    Added: "{prefix}&7Bạn đã thêm từ &c{word} &7vào danh sách trắng từ cấm."
+    Exists: "{prefix}&7Từ &c{word} &7đã được thêm vào danh sách trắng từ cấm."
+    Removed: "{prefix}&7Bạn đã xóa từ &c{word} &7khỏi danh sách trắng từ cấm."
+    Not_Found: "{prefix}&7Từ &c{word} &7không có trong danh sách trắng từ cấm."
     
+Anti_Unicode:
 #=================================================================================================#
 # Anti-Unicode Messages
 #=================================================================================================#
-Anti_Unicode:
-  Message: "{prefix}&cPlease do not use special characters in chat."
+  Message: "{prefix}&cVui lòng không sử dụng ký tự đặc biệt trong chat."
   Notify_Staff_Format: "&7[Anti-Unicode] &f{player}: &7{message}"
     
+Auto_Broadcast:
 #=================================================================================================#
 # Auto-Broadcast Messages
 #=================================================================================================#
-Auto_Broadcast:
-  List: "&c{section}'s &7auto-broadcast messages:"
-  Added: "{prefix}&r{message} &7has been added to the &c{section} &7messages&7!"
-  Created: "{prefix}&7Created the world &c'%world%' &7with the message &r{message}&7."
+  List: "&c{section}'s &7tin nhắn tự động phát sóng:"
+  Added: "{prefix}&r{message} &7đã được thêm vào tin nhắn &c{section}&7!"
+  Created: "{prefix}&7Đã tạo thế giới &c'%world%' &7với tin nhắn &r{message}&7."
   
+Banned_Commands:
 #=================================================================================================#
 # Banned Commands Messages
 #=================================================================================================#
-Banned_Commands:
-  Message: "{prefix}&cYou do not have permission to use the command &7/{command}&c."
-  Command_Added: "{prefix}&7You added the command &c{command} &7to the list of banned commands."
-  Command_Exists: "{prefix}&7The command &c{command} &7is already added to the list of banned commands."
-  Command_Removed: "{prefix}&7You removed the command &c{command} &7from the list of banned commands."
-  Command_Not_Found: "{prefix}&7The command &c{command} &7is not in the list of banned commands."
+  Message: "{prefix}&cBạn không có quyền sử dụng lệnh &7/{command}&c."
+  Command_Added: "{prefix}&7Bạn đã thêm lệnh &c{command} &7vào danh sách lệnh bị cấm."
+  Command_Exists: "{prefix}&7Lệnh &c{command} &7đã được thêm vào danh sách lệnh bị cấm."
+  Command_Removed: "{prefix}&7Bạn đã xóa lệnh &c{command} &7khỏi danh sách lệnh bị cấm."
+  Command_Not_Found: "{prefix}&7Lệnh &c{command} &7không có trong danh sách lệnh bị cấm."
   Notify_Staff_Format: "&7[Blocked-Cmd] &f{player}: &7{command}"
   
+Chat_Radius:
 #=================================================================================================#
 # Chat Radius Messages
 #=================================================================================================#
-Chat_Radius:
   Local_Chat:
-    Enabled: "{prefix}&7You've entered &cLocal Chat&7! Do &c/ChatRadius global &7or &c/ChatRadius world &7to leave Local Chat!"
-    Already_Enabled: "{prefix}&7You are already in local chat."
+    Enabled: "{prefix}&7Bạn đã vào &cLocal Chat&7! Sử dụng &c/ChatRadius global &7hoặc &c/ChatRadius world &7để thoát Local Chat!"
+    Already_Enabled: "{prefix}&7Bạn đã ở trong local chat."
   Global_Chat:
-    Enabled: "{prefix}&7You've entered &cGlobal Chat&7! Do &c/ChatRadius local &7or &c/ChatRadius world &7to leave global Chat!"
-    Already_Enabled: "{prefix}&7You are already in global chat."
+    Enabled: "{prefix}&7Bạn đã vào &cGlobal Chat&7! Sử dụng &c/ChatRadius local &7hoặc &c/ChatRadius world &7để thoát Global Chat!"
+    Already_Enabled: "{prefix}&7Bạn đã ở trong global chat."
   World_Chat:
-    Enabled: "{prefix}&7You've entered &cWorld Chat&7! Do &c/ChatRadius local &7or &c/ChatRadius global &7to leave world Chat!"
-    Already_Enabled: "{prefix}&7You are already in world chat."
+    Enabled: "{prefix}&7Bạn đã vào &cWorld Chat&7! Sử dụng &c/ChatRadius local &7hoặc &c/ChatRadius global &7để thoát World Chat!"
+    Already_Enabled: "{prefix}&7Bạn đã ở trong world chat."
   Spy:
-    Enabled: "{prefix}&7Chat Radius spy has been &aEnabled."
-    Disabled: "{prefix}&7Chat Radius spy has been &cDisabled."
+    Enabled: "{prefix}&7Tính năng theo dõi Chat Radius đã được &aBật."
+    Disabled: "{prefix}&7Tính năng theo dõi Chat Radius đã được &cTắt."
   
+Clear_Chat:
 #=================================================================================================#
 # Clear Chat Messages
 #=================================================================================================#
-Clear_Chat:
-  Staff_Message: "{prefix}&eChat has been cleared by {player}."
+  Staff_Message: "{prefix}&eChat đã được xóa bởi {player}."
   Broadcast_Message:
   - "&f*&c&m--------------------------------------------&f*"
-  - "&eThe chat has been cleared by {player}"
+  - "&eChat đã được xóa bởi {player}"
   - "&f*&c&m--------------------------------------------&f*"
   
+Command_Spy:
 #=================================================================================================#
 # Command Spy Messages
 #=================================================================================================#
-Command_Spy:
   Format: "&7[Command-Spy] {player}: &b{command}"
-  Enabled: "{prefix}&aCommand Spy has been enabled."
-  Disabled: "{prefix}&cCommand Spy has been disabled."
+  Enabled: "{prefix}&aCommand Spy đã được bật."
+  Disabled: "{prefix}&cCommand Spy đã được tắt."
   
+Mute_Chat:
 #=================================================================================================#
 # Mute Chat Messages
 #=================================================================================================#
-Mute_Chat:
-  Denied_Message: "{prefix}&cYou are not able to talk in chat right now."
+  Denied_Message: "{prefix}&cBạn không thể nói chuyện trong chat ngay bây giờ."
   Broadcast_Messages:
-    Enabled: "{prefix}&aChat has been Enabled by {player}."
-    Disabled: "{prefix}&cChat has been Disabled by {player}."
+    Enabled: "{prefix}&aChat đã được bật bởi {player}."
+    Disabled: "{prefix}&cChat đã được tắt bởi {player}."
   Blocked_Commands:
-    Message: "{prefix}&cYou are not allowed to use that command while the chat is muted."
+    Message: "{prefix}&cBạn không được phép sử dụng lệnh đó khi chat bị tắt."
     
+Per_World_Chat:
 #=================================================================================================#
 # Per-World Chat Messages
 #=================================================================================================#
-Per_World_Chat:
-  Bypass_Enabled: "{prefix}&aPer-world chat bypass has been enabled."
-  Bypass_Disabled: "{prefix}&cPer-world chat bypass has been disabled."
+  Bypass_Enabled: "{prefix}&aTính năng bỏ qua chat theo thế giới đã được bật."
+  Bypass_Disabled: "{prefix}&cTính năng bỏ qua chat theo thế giới đã được tắt."
   
+Ping:
 #=================================================================================================#
 # Ping Messages
 #=================================================================================================#
-Ping:
-  Players_Ping: "{prefix}&7Your current ping is &c{ping} ms."
-  Targets_Ping: "{prefix}&7{target}'s current ping is &c{ping} ms."
+  Players_Ping: "{prefix}&7Ping hiện tại của bạn là &c{ping} ms."
+  Targets_Ping: "{prefix}&7Ping hiện tại của {target} là &c{ping} ms."
   
+Private_Message:
 #=================================================================================================#
 # Private Message Messages
 #=================================================================================================#
-Private_Message:
-  Recipient_Not_Found: "{prefix}&cYou have nobody to reply to."
-  Toggled: "{prefix}&cThat player cannot receive messages right now."
-  Ignored: "{prefix}&c{target} &7is currently ignoring you and cant receive any private messages."
-  Self: "{prefix}&cYou cannot message yourself."
-  AFK: "{prefix}&c{target} &7is currently afk."
+  Recipient_Not_Found: "{prefix}&cBạn không có ai để trả lời."
+  Toggled: "{prefix}&cNgười chơi đó hiện không thể nhận tin nhắn."
+  Ignored: "{prefix}&c{target} &7đang bỏ qua bạn và không thể nhận được bất kỳ tin nhắn riêng tư nào."
+  Self: "{prefix}&cBạn không thể nhắn tin cho chính mình."
+  AFK: "{prefix}&c{target} &7hiện đang vắng mặt."
   
+Social_Spy:
 #=================================================================================================#
 # Social Spy Messages
 #=================================================================================================#
-Social_Spy:
   Format: "&b&l(*)&bSpy &f&l[&e{player} &d-> &e{receiver}&f&l] &b{message}"
-  Enabled: "{prefix}&aSocial Spy has been enabled."
-  Disabled: "{prefix}&cSocial Spy has been disabled."
+  Enabled: "{prefix}&aSocial Spy đã được bật."
+  Disabled: "{prefix}&cSocial Spy đã được tắt."
   
+Staff_Chat:
 #=================================================================================================#
 # Staff Chat Messages
 #=================================================================================================#
-Staff_Chat:
-  Enabled: "{prefix}&aStaff chat has been enabled."
-  Disabled: "{prefix}&cStaff chat has been disabled."
+  Enabled: "{prefix}&aStaff chat đã được bật."
+  Disabled: "{prefix}&cStaff chat đã được tắt."
   
+Toggle_Chat:
 #=================================================================================================#
 # Toggle Chat Messages
 #=================================================================================================#
-Toggle_Chat:
-  Enabled: "{prefix}&aToggle chat has been enabled, you will no longer receive chat messages."
-  Disabled: "{prefix}&cToggle chat has been disabled, you will start receiving chat messages."
+  Enabled: "{prefix}&aChế độ bật/tắt chat đã được bật, bạn sẽ không còn nhận được tin nhắn chat nữa."
+  Disabled: "{prefix}&cChế độ bật/tắt chat đã được tắt, bạn sẽ bắt đầu nhận được tin nhắn chat."
   
+Toggle_Mentions:
 #=================================================================================================#
 # Toggle Mentions Messages
 #=================================================================================================#
-Toggle_Mentions:
-  Enabled: "{prefix}&7Toggle mentions has been &aenabled&7, you will no longer receive mention messages."
-  Disabled: "{prefix}&7Toggle mentions has been &cdisabled&7, you will start receiving mention messages."
+  Enabled: "{prefix}&7Chế độ bật/tắt nhắc đến đã được &abật&7, bạn sẽ không còn nhận được tin nhắn nhắc đến nữa."
+  Disabled: "{prefix}&7Chế độ bật/tắt nhắc đến đã được &ctắt&7, bạn sẽ bắt đầu nhận được tin nhắn nhắc đến."
   
+TogglePM:
 #=================================================================================================#
 # TogglePM Messages
 #=================================================================================================#
-TogglePM:
-  Enabled: "{prefix}&aTogglePM has been enabled."
+  Enabled: "{prefix}&aTogglePM đã được bật."
+  Disabled: "{prefix}&cTogglePM đã được tắt."
   Disabled: "{prefix}&cTogglePM has been disabled."

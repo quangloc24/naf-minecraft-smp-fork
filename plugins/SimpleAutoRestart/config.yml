@@ -5,42 +5,42 @@ restartTime:
 
 # Configure message and the corresponding pre-warning time in seconds
 messages:
-  '0': '[AutoRestart] Restarting now'
-  '1': '[AutoRestart] Restarting in 1 second'
-  '2': '[AutoRestart] Restarting in 2 seconds'
-  '3': '[AutoRestart] Restarting in 3 seconds'
-  '5': '[AutoRestart] Restarting in 5 seconds'
-  '10': '[AutoRestart] Restarting in 10 seconds'
-  '15': '[AutoRestart] Restarting in 15 seconds'
-  '30': '[AutoRestart] Restarting in 30 seconds'
-  '60': '[AutoRestart] Restarting in 1 minute'
-  '120': '[AutoRestart] Restarting in 2 minutes'
-  '180': '[AutoRestart] Restarting in 3 minutes'
-  '300': '[AutoRestart] Restarting in 5 minutes'
-  '600': '[AutoRestart] Restarting in 10 minutes'
+  '0': '[AutoRestart] Khởi động ngay bây giờ!'
+  '1': '[AutoRestart] Khởi động lại trong 1 giây'
+  '2': '[AutoRestart] Khởi động lại trong 2 giây'
+  '3': '[AutoRestart] Khởi động lại trong 3 giây'
+  '5': '[AutoRestart] Khởi động lại trong 5 giây'
+  '10': '[AutoRestart] Khởi động lại trong 10 giây'
+  '15': '[AutoRestart] Khởi động lại trong 15 giây'
+  '30': '[AutoRestart] Khởi động lại trong 30 giây'
+  '60': '[AutoRestart] Khởi động lại trong 1 phút'
+  '120': '[AutoRestart] Khởi động lại trong 2 phút'
+  '180': '[AutoRestart] Khởi động lại trong 3 phút'
+  '300': '[AutoRestart] Khởi động lại trong 5 phút'
+  '600': '[AutoRestart] Khởi động lại trong 10 phút'
 
 titles: 
-  '600' : '§l§4Warning'
-  '300' : '§l§4Warning'
-  '60' : '§l§4Warning'
-  '30' : '§l§4Warning'
-  '15' : '§l§4Warning'
-  '10' : '§l§4Warning'
-  '5' : '§l§4Warning'
-  '4' : '§l§4Warning'
-  '3' : '§l§4Warning'
-  '2' : '§l§4Warning'
-  '1' : '§l§4Warning'
+  '600' : '§l§4Cảnh báo'
+  '300' : '§l§4Cảnh báo'
+  '60' : '§l§4Cảnh báo'
+  '30' : '§l§4Cảnh báo'
+  '15' : '§l§4Cảnh báo'
+  '10' : '§l§4Cảnh báo'
+  '5' : '§l§4Cảnh báo'
+  '4' : '§l§4Cảnh báo'
+  '3' : '§l§4Cảnh báo'
+  '2' : '§l§4Cảnh báo'
+  '1' : '§l§4Cảnh báo'
 
 subtitles:
-  '600' : "§6Restarting in 10 minutes"
-  '300' : "§6Restarting in 5 minutes"
-  '60' : "§6Restarting in 1 minutes"
-  '30' : "§6Restarting in 30 seconds"
-  '15' : "§6Restarting in 15 seconds"
-  '10' : "§6Restarting in 10 seconds"
-  '5' : "§6Restarting in 5 seconds"
-  '4' : "§6Restarting in 4 seconds"
-  '3' : "§6Restarting now..."
-  '2' : "§6Restarting now..."
-  '1' : "§6Restarting now..."
+  '600' : "§6Khởi động lại trong 10 phút"
+  '300' : "§6Khởi động lại trong 5 phút"
+  '60' : "§6Khởi động lại trong 1 phút"
+  '30' : "§6Khởi động lại trong 30 giây"
+  '15' : "§6Khởi động lại trong 15 giây"
+  '10' : "§6Khởi động lại trong 10 giây"
+  '5' : "§6Khởi động lại trong 5 giây"
+  '4' : "§6Khởi động lại trong 4 giây"
+  '3' : "§6Khởi động lại ngay bây giờ..."
+  '2' : "§6Khởi động lại ngay bây giờ..."
+  '1' : "§6Khởi động lại ngay bây giờ..."

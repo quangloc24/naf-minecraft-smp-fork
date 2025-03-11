@@ -153,7 +153,7 @@ DiscordConsoleChannelPadding: 0
 # %error%: the reason for the error
 #           example: no permission
 #
-DiscordChatChannelConsoleCommandNotifyErrorsFormat: "[DiscordSRV] **%user%**, you tried running a command. Unfortunately, there was an error: %error%"
+DiscordChatChannelConsoleCommandNotifyErrorsFormat: "[DiscordSRV] **%user%**, bạn đã thử chạy một lệnh. Thật không may, đã có lỗi xảy ra: %error%"
 
 # Discord chat channel player list command
 # Messages used for when someone runs the playerlist command in a chat channel
@@ -170,8 +170,8 @@ DiscordChatChannelConsoleCommandNotifyErrorsFormat: "[DiscordSRV] **%user%**, yo
 #   PlaceholderAPI placeholders are also supported
 # DiscordChatChannelListCommandAllPlayersSeparator: the separator used in between players
 #
-DiscordChatChannelListCommandFormatOnlinePlayers: "**Online players (%playercount%):**"
-DiscordChatChannelListCommandFormatNoOnlinePlayers: "**No online players**"
+DiscordChatChannelListCommandFormatOnlinePlayers: "**Người chơi đang trực tuyến (%playercount%):**"
+DiscordChatChannelListCommandFormatNoOnlinePlayers: "**Không có người chơi nào đang trực tuyến**"
 DiscordChatChannelListCommandPlayerFormat: "%displayname%"
 DiscordChatChannelListCommandAllPlayersSeparator: ", "
 
@@ -209,7 +209,7 @@ MinecraftPlayerJoinMessage:
     Color: "#00ff00"
     Author:
       ImageUrl: "%embedavatarurl%"
-      Name: "%username% joined the server"
+      Name: "%username% đã tham gia máy chủ"
       Url: ""
     ThumbnailUrl: ""
     Title:
@@ -238,7 +238,7 @@ MinecraftPlayerFirstJoinMessage:
     Color: "#ffd700"
     Author:
       ImageUrl: "%embedavatarurl%"
-      Name: "%username% joined the server for the first time"
+      Name: "%username% đã tham gia máy chủ lần đầu tiên"
       Url: ""
     ThumbnailUrl: ""
     Title:
@@ -267,7 +267,7 @@ MinecraftPlayerLeaveMessage:
     Color: "#ff0000"
     Author:
       ImageUrl: "%embedavatarurl%"
-      Name: "%username% left the server"
+      Name: "%username% đã rời máy chủ"
       Url: ""
     ThumbnailUrl: ""
     Title:
@@ -327,7 +327,7 @@ MinecraftPlayerAchievementMessage:
     Color: "#ffd700"
     Author:
       ImageUrl: "%embedavatarurl%"
-      Name: "%username% has made the advancement %achievement%!"
+      Name: "%username% đã đạt được thành tựu %achievement%!"
       Url: ""
     ThumbnailUrl: ""
     Title:
@@ -368,11 +368,11 @@ MinecraftPlayerAchievementMessage:
 # %tps%:           average TPS of the server
 # PlaceholderAPI placeholders are also supported
 #
-ChannelTopicUpdaterChatChannelTopicFormat: "%playercount%/%playermax% players online | Server online for %uptimemins% minutes | Last update: %date%"
-ChannelTopicUpdaterConsoleChannelTopicFormat: "TPS: %tps% | Mem: %usedmemorygb%GB used/%freememorygb%GB free/%maxmemorygb%GB max | %serverversion%"
+ChannelTopicUpdaterChatChannelTopicFormat: "%playercount%/%playermax% người chơi đang trực tuyến | Máy chủ đang hoạt động được %uptimemins% phút | Cập nhật cuối: %date%"
+ChannelTopicUpdaterConsoleChannelTopicFormat: "TPS: %tps% | Bộ nhớ: %usedmemorygb%GB đã sử dụng/%freememorygb%GB trống/%maxmemorygb%GB tối đa | %serverversion%"
 # AtServerShutdownFormats ONLY supports %totalplayers%, %serverversion%, & %date% / %time%
-ChannelTopicUpdaterChatChannelTopicAtServerShutdownFormat: "Server is offline"
-ChannelTopicUpdaterConsoleChannelTopicAtServerShutdownFormat: "Server is offline | %serverversion%"
+ChannelTopicUpdaterChatChannelTopicAtServerShutdownFormat: "Máy chủ đã ngừng hoạt động"
+ChannelTopicUpdaterConsoleChannelTopicAtServerShutdownFormat: "Máy chủ đã ngừng hoạt động | %serverversion%"
 
 # Discord command message
 # This is the message sent to players when they run "/discord". It's recommended to leave command syntax as a part of this
@@ -381,17 +381,17 @@ ChannelTopicUpdaterConsoleChannelTopicAtServerShutdownFormat: "Server is offline
 DiscordCommandFormat: "&b[Discord] &9{INVITE}"
 
 # No permission message
-NoPermissionMessage: "&c[DiscordSRV] You do not have permission to perform this command."
+NoPermissionMessage: "&c[DiscordSRV] Bạn không có quyền thực hiện lệnh này."
 
 # Unknown command message
-UnknownCommandMessage: "&b[DiscordSRV] That command doesn't exist!"
+UnknownCommandMessage: "&b[DiscordSRV] Lệnh đó không tồn tại!"
 
 # Server startup/shutdown messages
 # DiscordChatChannelServerStartupMessage: message to be sent when server starts; leave blank to disable
 # DiscordChatChannelServerShutdownMessage: message to be sent when server shuts down; leave blank to disable
 #
-DiscordChatChannelServerStartupMessage: ":white_check_mark: **Server has started**"
-DiscordChatChannelServerShutdownMessage: ":octagonal_sign: **Server has stopped**"
+DiscordChatChannelServerStartupMessage: ":white_check_mark: **Máy chủ đã khởi động**"
+DiscordChatChannelServerShutdownMessage: ":octagonal_sign: **Máy chủ đã ngừng hoạt động**"
 
 # Server watchdog message
 #
@@ -406,7 +406,7 @@ DiscordChatChannelServerShutdownMessage: ":octagonal_sign: **Server has stopped*
 #                        you can use ServerWatchdogTimeout as a placeholder by using %timeout%
 #                        you can use the %timestamp% placeholder for use in discord's timestamp format
 #
-ServerWatchdogMessage: ":fire: **Server hasn't ticked in %timeout% seconds**"
+ServerWatchdogMessage: ":fire: **Máy chủ chưa hoạt động trong %timeout% giây**"
 
 # Account link messages
 # These are messages used when accounts are linked
@@ -431,19 +431,19 @@ ServerWatchdogMessage: ":fire: **Server hasn't ticked in %timeout% seconds**"
 # MinecraftNobodyFound:         %target%:       the input that led to no results being found
 #
 # Discord
-UnknownCode: "I don't know of such a code, try again."
-InvalidCode: "Are you sure that's your code? Link codes are 4 numbers long."
-DiscordAccountLinked: "Your Discord account has been linked!"
-DiscordAccountAlreadyLinked: "You are already linked to %username%"
-DiscordLinkedAccountRequired: "You attempted to say the following message to the game chat but this server requires that you have your Minecraft account linked to your Discord account. Link it in-game by typing `/discord link`. \n```%message%```"
-DiscordLinkedAccountCheckFailed: "Unable to check if your account is linked, please try again later"
+UnknownCode: "Tôi không biết mã nào như vậy, hãy thử lại."
+InvalidCode: "Bạn có chắc đó là mã của bạn không? Mã liên kết dài 4 số."
+DiscordAccountLinked: "Tài khoản Discord của bạn đã được liên kết!"
+DiscordAccountAlreadyLinked: "Bạn đã được liên kết với %username%"
+DiscordLinkedAccountRequired: "Bạn đã cố gắng gửi tin nhắn sau đến trò chuyện trò chơi nhưng máy chủ này yêu cầu bạn phải liên kết tài khoản Minecraft với tài khoản Discord của mình. Liên kết nó trong trò chơi bằng cách nhập `/discord link`. \n```%message%```"
+DiscordLinkedAccountCheckFailed: "Không thể kiểm tra xem tài khoản của bạn đã được liên kết chưa, vui lòng thử lại sau"
 # Minecraft
-CodeGenerated: "[DiscordSRV] Your link code is &9%code%&r. PM the bot on Discord (%botname%) containing just this code as the message to link your accounts."
-ClickToCopyCode: "Click to copy"
-MinecraftAccountLinked: "&b[DiscordSRV] Your UUID has been linked to Discord user %username% (%id%)"
-MinecraftAccountAlreadyLinked: "&b[DiscordSRV] Your Minecraft account is already associated with a Discord account. Should you have permission to, you can unlink your account with /discord unlink."
-LinkedCommandSuccess: "&b[DiscordSRV] Your Minecraft account is associated with %name%."
-UnlinkCommandSuccess: "&b[DiscordSRV] Your Minecraft account is no longer associated with %name%."
-MinecraftNoLinkedAccount: "&c[DiscordSRV] Your Minecraft account isn't associated with a Discord account."
-LinkingError: "&c[DiscordSRV] Currently unable to link accounts due to an internal error. Contact your server administration team."
-MinecraftNobodyFound: "&c[DiscordSRV] Nobody found with Discord ID/Discord name/Minecraft name/Minecraft UUID matching \"%target%\" to look up."
+CodeGenerated: "[DiscordSRV] Mã liên kết của bạn là &9%code%&r. Gửi tin nhắn mã liên kết vào kênh #smp-link trên Discord để liên kết tài khoản của bạn."
+ClickToCopyCode: "Nhấp để sao chép"
+MinecraftAccountLinked: "&b[DiscordSRV] UUID của bạn đã được liên kết với người dùng Discord %username% (%id%)"
+MinecraftAccountAlreadyLinked: "&b[DiscordSRV] Tài khoản Minecraft của bạn đã được liên kết với một tài khoản Discord. Nếu bạn có quyền, bạn có thể hủy liên kết tài khoản của mình bằng /discord unlink."
+LinkedCommandSuccess: "&b[DiscordSRV] Tài khoản Minecraft của bạn đã được liên kết với %name%."
+UnlinkCommandSuccess: "&b[DiscordSRV] Tài khoản Minecraft của bạn không còn được liên kết với %name%."
+MinecraftNoLinkedAccount: "&c[DiscordSRV] Tài khoản Minecraft của bạn chưa được liên kết với tài khoản Discord."
+LinkingError: "&c[DiscordSRV] Hiện tại không thể liên kết tài khoản do lỗi bên trong. Liên hệ với nhóm quản trị máy chủ của bạn."
+MinecraftNobodyFound: "&c[DiscordSRV] Không tìm thấy ai có ID Discord/tên Discord/tên Minecraft/UUID Minecraft khớp với \"%target%\" để tìm kiếm."
