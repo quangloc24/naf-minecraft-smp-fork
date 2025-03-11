@@ -36,7 +36,7 @@ fallback-to-offline-uuid: false
 # If you find missing translations or want to contribute, see https://crowdin.com/project/maintenance
 # Currently available are: en (English), de (German), fr (French), pt (Portuguese), es (Spanish), ru (Russian), zh (Chinese), it (Italian),
 #  pl (Polish), tr (Turkish), sv (Swedish), uk (Ukrainian), ja (Japanese), da (Danish), ko (Korean), hu (Hungarian), vi (Vietnamese)
-language: en
+language: vi
 
 # If enabled and the server is restarted while running an endtimer, the timer will be continued after the restart.
 # If the timer ends while the server is offline, maintenance will be disabled as soon as the server starts again.

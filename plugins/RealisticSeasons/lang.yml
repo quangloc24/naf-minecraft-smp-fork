@@ -1,34 +1,34 @@
-SEASONSCOMMAND-DAYSUNTILNEXTEVENT: '&a[RealisticSeason] Days until next event (&2$next_event$&a):
+SEASONSCOMMAND-DAYSUNTILNEXTEVENT: '&a[RealisticSeason] Ngày đến sự kiện tiếp theo (&2$next_event$&a):
   &7$days_until_next_event$'
-SEASON-TO-WINTER: '&b[RealisticSeason] Winter is starting!'
-SEASON-TO-FALL: '&b[RealisticSeason] Fall is starting!'
-SEASON-TO-SPRING: '&b[RealisticSeason] Spring is starting!'
-SEASON-TO-SUMMER: '&b[RealisticSeason] Summer is starting!'
-NO-PERMISSION-MESSAGE: '&c[RealisticSeason] You don''t have the permission to do that!'
+SEASON-TO-WINTER: '&b[RealisticSeason] Mùa đông bắt đầu!'
+SEASON-TO-FALL: '&b[RealisticSeason] Mùa thu bắt đầu!'
+SEASON-TO-SPRING: '&b[RealisticSeason] Mùa xuân bắt đầu!'
+SEASON-TO-SUMMER: '&b[RealisticSeason] Mùa hè bắt đầu!'
+NO-PERMISSION-MESSAGE: '&c[RealisticSeason] Bạn không có quyền làm điều đó!'
 WINTER-DISPLAY-NAME: Winter
 FALL-DISPLAY-NAME: Fall
 SPRING-DISPLAY-NAME: Spring
 SUMMER-DISPLAY-NAME: Summer
-SEASONCOMMAND-DISABLED: '&c[RealisticSeason] Seasons are disabled in this world'
-SEASONCOMMAND-RESTORING: '&c[RealisticSeason] This world is currently restoring!'
-SEASONCOMMAND-CURRENTDATE: '&a[RealisticSeason] Current date: &2$current_weekday$,
+SEASONCOMMAND-DISABLED: '&c[RealisticSeason] Mùa bị vô hiệu hóa trong thế giới này'
+SEASONCOMMAND-RESTORING: '&c[RealisticSeason] Thế giới này hiện đang khôi phục!'
+SEASONCOMMAND-CURRENTDATE: '&a[RealisticSeason] Ngày hiện tại: &2$current_weekday$,
   $current_month$ $current_day$, year $current_year$'
-SEASONSCOMMAND-CURRENTSEASON: '&a[RealisticSeason] Current season: &2$current_season$'
-SEASONSCOMMAND-AIRTEMPERATURE: '&a[RealisticSeason] Current air temperature: $air_temperature$'
-SEASONSCOMMAND-DAYSUNTILNEXTSEASON: '&a[RealisticSeason] Days until next season (&2$next_season$&a):
+SEASONSCOMMAND-CURRENTSEASON: '&a[RealisticSeason] Mùa hiện tại: &2$current_season$'
+SEASONSCOMMAND-AIRTEMPERATURE: '&a[RealisticSeason] Nhiệt độ không khí hiện tại: $air_temperature$'
+SEASONSCOMMAND-DAYSUNTILNEXTSEASON: '&a[RealisticSeason] Ngày đến mùa tiếp theo (&2$next_season$&a):
   &7$days_until_next_season$'
-SEASONCOMMAND-TIME: '&a[RealisticSeason] Current time: &2$time$'
-SEASONCOMMAND-EVENTS: '&a[RealisticSeason] Active events: &2$events$'
-TOGGLESEASONSCOMMAND-MESSAGE: '&a[RealisticSeason] Season colors are now &2$status$
+SEASONCOMMAND-TIME: '&a[RealisticSeason] Thời gian hiện tại: &2$time$'
+SEASONCOMMAND-EVENTS: '&a[RealisticSeason] Sự kiện đang hoạt động: &2$events$'
+TOGGLESEASONSCOMMAND-MESSAGE: '&a[RealisticSeason] Màu sắc mùa giờ là &2$status$
   &afor you'
-TOGGLETEMPERATURECOMMAND-MESSAGE: '&a[RealisticSeason] The temperature system is now
-  &2$status$ &afor you'
-TOGGLEPARTICLESCOMMAND-MESSAGE: '&a[RealisticSeason] The season particles are now
-  &2$status$ &afor you'
-TOGGLEFAHRENHEITCOMMAND-TOFAHRENHEIT: '&a[RealisticSeason] Your temperature will now
-  be displayed in &2Fahrenheit'
-TOGGLEFAHRENHEITCOMMAND-TOCELCIUS: '&a[RealisticSeason] Your temperature will now
-  be displayed in &2Celcius'
+TOGGLETEMPERATURECOMMAND-MESSAGE: '&a[RealisticSeason] Hệ thống nhiệt độ giờ là
+  &2$status$ &ađối với bạn'
+TOGGLEPARTICLESCOMMAND-MESSAGE: '&a[RealisticSeason] Các hạt mùa giờ là
+  &2$status$ &ađối với bạn'
+TOGGLEFAHRENHEITCOMMAND-TOFAHRENHEIT: '&a[RealisticSeason] Nhiệt độ của bạn bây giờ sẽ 
+  được hiển thị trong độ &2Fahrenheit (°F)'
+TOGGLEFAHRENHEITCOMMAND-TOCELCIUS: '&a[RealisticSeason] Nhiệt độ của bạn bây giờ sẽ 
+  được hiển thị trong độ &2Celcius (°C)'
 ENABLED: enabled
 DISABLED: disabled
-CURRENTBIOME-MESSAGE: '&a[RealisticSeason] Current biome: $biome$'
+CURRENTBIOME-MESSAGE: '&a[RealisticSeason] Biome hiện tại: $biome$'
